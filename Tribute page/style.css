@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    transition: all .3s ease-in-out;
+}
+nav{
+    background-color: rgb(130, 130, 130);
+    position: fixed;
+    box-shadow: 0 0.5vmin 2vmin rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  dl {
+    margin-top: 0;
+    margin-bottom: 5vmin;
+  
+  }
+  
+  dd {
+    display: block;
+    padding-left: 2vmin;
+  }
+  
+  dt {
+    font-weight: bold;
+    font-size: 2.7vmin
+  }
+  
+  dd, dt {
+    line-height: 1.42857143;
+  }
+nav h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+.container-1{
+    width: 90%;
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
+    background-color: rgba(106, 107, 116, 0.578);
+    
+    z-index: -1;
+    padding: 20px;
+    border-radius: 10px;
+    down:15rem;
+}
+.container-1 img{
+    
+    width:200px;
+    height: 200px;
+  
+}
+.img1{
+    padding: 10px;
+    object-position: 3%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.list-unstyled {
+    list-style: none;
+    padding-left: 7.5vmin;
+    padding-right: 7.5vmin;
+  }
+  
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.container-2 img{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    left:140vh;
+    top: 95vh;
+}
+.container-2{
+    width: 100%;
+    box-shadow: 0 0.5vmin 2vmin rgba(53, 25, 97, 0.3);
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.container-2 h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-2 p{
+    width: 70%;
+    margin-left: 5vh;
+    font-size: 50px;
+    margin-top: 5vh;
+    line-height: 45px;
+}
+ul{
+    padding-left: 20vh;
+}
+.container-3{
+    width: 100%;
+    box-shadow: 0 0.5vmin 2vmin rgba(0, 0, 0, .3);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;}
+
+.rule-container {
+    padding-left: 7.5vmin;
+    padding-right: 7.5vmin;
+    margin-bottom: 5vmin;
+  }
+  .quote-container, .add-info-container {
+    padding: 1vmin 3vmin;
+    margin: 3vmin 4vmin 0;
+  }
+  .quote-container {
+    border-left: .9vmin solid #7a1919;
+  }
+  
+  .qoute-container blockquote {
+    font-size: 5vmin;
+  }
+
+  .q--footer {
+    font-size: 95%;
+    line-height: 1.42857143;
+    color: rgb(0, 0, 0);
+  }
+  .footer {
+    padding: 2vmin 1.5vmin;
+    margin: 1vmin 2vmin 3vmin;
+    color: rgb(0, 0, 0);
+  }
